@@ -47,7 +47,7 @@ The LSTM achieves **~23 percentage points above random** and **~25 percentage po
 
 The 73% result sits at the upper end of the range typically reported in academic VIX prediction literature, where competent ML models score in the 60–65% range and tuned production models reach 70%+.
 
-![Evaluation predictions](results/eval_predictions.png)
+![Evaluation predictions](results/output.png)
 
 The model captured the major VIX spike in early August 2024 (the carry-trade unwind event) cleanly in both magnitude and timing. Day-over-day changes track actual moves closely across most of the evaluation period, which is what drives the ~73% directional accuracy. There is a persistent upward level bias during sustained low-volatility periods (visible in the Q1 2024 portion of the evaluation), discussed in the Limitations section. The practical implication is that the predictions are most reliable for **direction and approximate magnitude of moves**, less so for the precise level — a forecast of "VIX up tomorrow, probably by a small amount" is well-supported; a forecast of "VIX will open at exactly 14.2" should not be relied on without contextual judgment.
 
