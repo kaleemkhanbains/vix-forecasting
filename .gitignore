@@ -1,0 +1,33 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Saved models (large, regenerable by running the notebook)
+*.keras
+*.h5
+*.pb
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
