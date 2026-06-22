@@ -54,7 +54,7 @@ The model captured the major VIX spike in early August 2024 (the carry-trade unw
 ## How to reproduce
 
 ```bash
-git clone https://github.com/<your-username>/vix-forecasting.git
+git clone https://github.com/kaleemkhanbains/vix-forecasting.git
 cd vix-forecasting
 pip install -r requirements.txt
 jupyter notebook vix_forecasting.ipynb
